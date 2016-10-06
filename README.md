@@ -4,7 +4,7 @@
 
 Sometimes you're in the middle of a project and wished you had a different naming convention for your assets at the beginning. This is always a tedius work of rename a file then search for this name on your css and html files to replace. This tool was made to make it easier.
 
-Disclamer: This transforms your source files, use with caution. `git reset --hard` is your friend if you mess anything up.
+This transforms your source files, use with caution. `git reset --hard` is your friend if you mess anything up.
 
 ## Install
 
@@ -52,7 +52,7 @@ Path to assets, defaults to current.
 Type: `Object`
 *Required*
 
-Determines the output quality of the resized image. Ranges from `0` (really bad) to `1` (almost lossless). Only applies to jpg images.
+Object with keys as current file names and values as targets
 
 
 ## License
